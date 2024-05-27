@@ -1,0 +1,30 @@
+{
+    "frames": {
+        "Idle1.png": {
+            "frame": { "x": 0, "y": 0, "w": 100, "h": 200 },
+            "rotated": false
+        },
+        "Idle2.png": {
+            "frame": { "x": 102, "y": 0, "w": 100, "h": 200 },
+            "rotated": false
+        },
+        "Idle3.png": {
+            "frame": { "x": 202, "y": 0, "w": 100, "h": 200 },
+            "rotated": false
+        },
+        "Idle4.png": {
+            "frame": { "x": 302, "y": 0, "w": 100, "h": 200 },
+            "rotated": false
+        },
+        "Idle5.png": {
+            "frame": { "x": 402, "y": 0, "w": 100, "h": 200 },
+            "rotated": false
+        }
+    },
+    "meta": {
+        "image": "./IdleSheet.png",
+        "format": "RGBA8888",
+        "size": { "w": 502, "h": 200 },
+        "scale": "1"
+    }
+}

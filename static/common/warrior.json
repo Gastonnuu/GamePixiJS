@@ -1,0 +1,482 @@
+{"frames": {
+
+"warrior-Attack_0.png":
+{
+	"frame": {"x":1084,"y":343,"w":105,"h":160},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":106,"y":111,"w":105,"h":160},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Attack_1.png":
+{
+	"frame": {"x":671,"y":307,"w":115,"h":159},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":92,"y":113,"w":115,"h":159},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Attack_2.png":
+{
+	"frame": {"x":648,"y":150,"w":125,"h":155},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":82,"y":117,"w":125,"h":155},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Attack_3.png":
+{
+	"frame": {"x":173,"y":230,"w":192,"h":164},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":140,"y":108,"w":192,"h":164},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Attack_4.png":
+{
+	"frame": {"x":495,"y":190,"w":151,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":140,"y":115,"w":151,"h":157},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-AttackUp_0.png":
+{
+	"frame": {"x":1084,"y":343,"w":105,"h":160},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":106,"y":111,"w":105,"h":160},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-AttackUp_1.png":
+{
+	"frame": {"x":671,"y":307,"w":115,"h":159},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":92,"y":113,"w":115,"h":159},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-AttackUp_2.png":
+{
+	"frame": {"x":648,"y":150,"w":125,"h":155},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":82,"y":117,"w":125,"h":155},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-AttackUp_3.png":
+{
+	"frame": {"x":1,"y":1,"w":170,"h":239},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":114,"y":33,"w":170,"h":239},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-AttackUp_4.png":
+{
+	"frame": {"x":330,"y":1,"w":144,"h":196},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":140,"y":76,"w":144,"h":196},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-GetUp_0.png":
+{
+	"frame": {"x":921,"y":240,"w":133,"h":131},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":149,"y":142,"w":133,"h":131},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-GetUp_1.png":
+{
+	"frame": {"x":908,"y":112,"w":126,"h":139},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":148,"y":136,"w":126,"h":139},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-GetUp_2.png":
+{
+	"frame": {"x":788,"y":387,"w":118,"h":146},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":147,"y":129,"w":118,"h":146},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-GetUp_3.png":
+{
+	"frame": {"x":1215,"y":214,"w":111,"h":150},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":145,"y":123,"w":111,"h":150},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-GetUp_4.png":
+{
+	"frame": {"x":1503,"y":93,"w":70,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":147,"y":95,"w":70,"h":179},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Idle_0.png":
+{
+	"frame": {"x":1084,"y":343,"w":105,"h":160},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":106,"y":111,"w":105,"h":160},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Idle_1.png":
+{
+	"frame": {"x":921,"y":1,"w":106,"h":160},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":106,"y":111,"w":106,"h":160},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Idle_2.png":
+{
+	"frame": {"x":1054,"y":235,"w":106,"h":159},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":106,"y":113,"w":106,"h":159},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Idle_3.png":
+{
+	"frame": {"x":1190,"y":106,"w":106,"h":159},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":106,"y":112,"w":106,"h":159},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Idle_4.png":
+{
+	"frame": {"x":1084,"y":343,"w":105,"h":160},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":106,"y":111,"w":105,"h":160},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Jump_0.png":
+{
+	"frame": {"x":1191,"y":343,"w":105,"h":160},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":106,"y":111,"w":105,"h":160},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Jump_1.png":
+{
+	"frame": {"x":747,"y":1,"w":109,"h":172},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":141,"y":102,"w":109,"h":172},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Jump_2.png":
+{
+	"frame": {"x":1084,"y":343,"w":105,"h":160},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":106,"y":111,"w":105,"h":160},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Jump_3.png":
+{
+	"frame": {"x":1083,"y":1,"w":103,"h":164},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":107,"y":109,"w":103,"h":164},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Jump_4.png":
+{
+	"frame": {"x":1298,"y":372,"w":75,"h":167},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":146,"y":90,"w":75,"h":167},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-JumpAttack_0.png":
+{
+	"frame": {"x":173,"y":424,"w":75,"h":169},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":155,"y":88,"w":75,"h":169},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-JumpAttack_1.png":
+{
+	"frame": {"x":1593,"y":1,"w":106,"h":150},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":114,"y":107,"w":106,"h":150},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-JumpAttack_2.png":
+{
+	"frame": {"x":531,"y":349,"w":138,"h":145},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":82,"y":112,"w":138,"h":145},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-JumpAttack_3.png":
+{
+	"frame": {"x":339,"y":199,"w":177,"h":154},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":155,"y":103,"w":177,"h":154},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-JumpAttack_4.png":
+{
+	"frame": {"x":609,"y":1,"w":136,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":155,"y":110,"w":136,"h":147},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-JumpAttackDown_0.png":
+{
+	"frame": {"x":173,"y":424,"w":75,"h":169},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":155,"y":88,"w":75,"h":169},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-JumpAttackDown_1.png":
+{
+	"frame": {"x":1593,"y":1,"w":106,"h":150},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":114,"y":107,"w":106,"h":150},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-JumpAttackDown_2.png":
+{
+	"frame": {"x":531,"y":349,"w":138,"h":145},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":82,"y":112,"w":138,"h":145},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-JumpAttackDown_3.png":
+{
+	"frame": {"x":173,"y":1,"w":155,"h":227},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":108,"y":114,"w":155,"h":227},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-JumpAttackDown_4.png":
+{
+	"frame": {"x":476,"y":1,"w":131,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":108,"y":114,"w":131,"h":187},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-JumpAttackUp_0.png":
+{
+	"frame": {"x":173,"y":424,"w":75,"h":169},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":155,"y":88,"w":75,"h":169},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-JumpAttackUp_1.png":
+{
+	"frame": {"x":1593,"y":1,"w":106,"h":150},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":114,"y":107,"w":106,"h":150},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-JumpAttackUp_2.png":
+{
+	"frame": {"x":531,"y":349,"w":138,"h":145},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":82,"y":112,"w":138,"h":145},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-JumpAttackUp_3.png":
+{
+	"frame": {"x":1,"y":242,"w":170,"h":229},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":114,"y":28,"w":170,"h":229},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-JumpAttackUp_4.png":
+{
+	"frame": {"x":344,"y":378,"w":129,"h":185},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":155,"y":72,"w":129,"h":185},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Rest_0.png":
+{
+	"frame": {"x":921,"y":240,"w":133,"h":131},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":149,"y":142,"w":133,"h":131},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Rest_1.png":
+{
+	"frame": {"x":788,"y":250,"w":135,"h":131},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":149,"y":142,"w":135,"h":131},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Rest_2.png":
+{
+	"frame": {"x":775,"y":112,"w":136,"h":131},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":149,"y":142,"w":136,"h":131},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Rest_3.png":
+{
+	"frame": {"x":788,"y":250,"w":135,"h":131},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":149,"y":142,"w":135,"h":131},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Run_0.png":
+{
+	"frame": {"x":1575,"y":153,"w":90,"h":173},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":129,"y":100,"w":90,"h":173},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Run_1.png":
+{
+	"frame": {"x":1467,"y":274,"w":90,"h":172},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":129,"y":97,"w":90,"h":172},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Run_2.png":
+{
+	"frame": {"x":1367,"y":211,"w":98,"h":159},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":129,"y":93,"w":98,"h":159},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Run_3.png":
+{
+	"frame": {"x":1559,"y":328,"w":90,"h":172},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":129,"y":98,"w":90,"h":172},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Run_4.png":
+{
+	"frame": {"x":1414,"y":1,"w":90,"h":177},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":129,"y":97,"w":90,"h":177},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Run_5.png":
+{
+	"frame": {"x":1249,"y":1,"w":98,"h":163},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":129,"y":93,"w":98,"h":163},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Run_6.png":
+{
+	"frame": {"x":1575,"y":153,"w":90,"h":173},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":129,"y":100,"w":90,"h":173},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Sit_0.png":
+{
+	"frame": {"x":1084,"y":343,"w":105,"h":160},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":106,"y":111,"w":105,"h":160},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Sit_1.png":
+{
+	"frame": {"x":1651,"y":328,"w":68,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":148,"y":95,"w":68,"h":179},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Sit_2.png":
+{
+	"frame": {"x":1351,"y":101,"w":108,"h":150},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":146,"y":123,"w":108,"h":150},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Sit_3.png":
+{
+	"frame": {"x":936,"y":375,"w":116,"h":146},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":147,"y":129,"w":116,"h":146},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Sit_4.png":
+{
+	"frame": {"x":1049,"y":109,"w":124,"h":139},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":148,"y":136,"w":124,"h":139},
+	"sourceSize": {"w":360,"h":360}
+},
+"warrior-Sit_5.png":
+{
+	"frame": {"x":921,"y":240,"w":133,"h":131},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":149,"y":142,"w":133,"h":131},
+	"sourceSize": {"w":360,"h":360}
+}},
+"animations": {
+	"warrior-Attack": ["warrior-Attack_0.png","warrior-Attack_1.png","warrior-Attack_2.png","warrior-Attack_3.png","warrior-Attack_4.png"],
+	"warrior-AttackUp": ["warrior-AttackUp_0.png","warrior-AttackUp_1.png","warrior-AttackUp_2.png","warrior-AttackUp_3.png","warrior-AttackUp_4.png"],
+	"warrior-GetUp": ["warrior-GetUp_0.png","warrior-GetUp_1.png","warrior-GetUp_2.png","warrior-GetUp_3.png","warrior-GetUp_4.png"],
+	"warrior-Idle": ["warrior-Idle_0.png","warrior-Idle_1.png","warrior-Idle_2.png","warrior-Idle_3.png"],
+	"warrior-Jump": ["warrior-Jump_0.png","warrior-Jump_1.png","warrior-Jump_2.png","warrior-Jump_3.png","warrior-Jump_4.png"],
+	"warrior-JumpAttack": ["warrior-JumpAttack_0.png","warrior-JumpAttack_1.png","warrior-JumpAttack_2.png","warrior-JumpAttack_3.png","warrior-JumpAttack_4.png"],
+	"warrior-JumpAttackDown": ["warrior-JumpAttackDown_0.png","warrior-JumpAttackDown_1.png","warrior-JumpAttackDown_2.png","warrior-JumpAttackDown_3.png","warrior-JumpAttackDown_4.png"],
+	"warrior-JumpAttackUp": ["warrior-JumpAttackUp_0.png","warrior-JumpAttackUp_1.png","warrior-JumpAttackUp_2.png","warrior-JumpAttackUp_3.png","warrior-JumpAttackUp_4.png"],
+	"warrior-Rest": ["warrior-Rest_0.png","warrior-Rest_1.png","warrior-Rest_2.png","warrior-Rest_3.png"],
+	"warrior-Run": ["warrior-Run_0.png","warrior-Run_1.png","warrior-Run_2.png","warrior-Run_3.png","warrior-Run_4.png","warrior-Run_5.png"],
+	"warrior-Sit": ["warrior-Sit_0.png","warrior-Sit_1.png","warrior-Sit_2.png","warrior-Sit_3.png","warrior-Sit_4.png","warrior-Sit_5.png"],
+	"warrior_InAir": ["warrior-Jump_4.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "warrior.png",
+	"format": "RGBA8888",
+	"size": {"w":1720,"h":508},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a253c568e4873c3ed2bd8044f5f7f9f6:1f3864572dc66ec734d87e1f757738cd:e520f8282533dd15f89047eb230289bc$"
+}
+}
