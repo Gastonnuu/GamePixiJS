@@ -3,6 +3,7 @@ import { Assets, Graphics, Rectangle, } from 'pixi.js';
 import { Keyboard } from '../utils/Keyboard';
 import { IHitbox } from '../utils/IHitbox';
 import { StateAnimation } from './StateAnimation';
+import { sound } from '@pixi/sound';
 
 export class Player extends StateAnimation implements IHitbox
 {    
@@ -24,8 +25,11 @@ export class Player extends StateAnimation implements IHitbox
     public canSit = false;
     public isSitting = false;
     public isAnimatingAttack = false;
+    public isDead = false;
 
     private health = 5;
+
+    private canPlaySound = true;
     
     private animations = Assets.cache.get("warrior-animations").data.animations;
     
@@ -76,7 +80,6 @@ export class Player extends StateAnimation implements IHitbox
     
     public override update(deltaMS: number)
     {
-
         super.update(deltaMS / 60);
 
         if (!this.inAir) {
@@ -116,6 +119,7 @@ export class Player extends StateAnimation implements IHitbox
             {
                 if (Keyboard.state.get("KeyZ") && this.canAttack)
                 {
+                    sound.play("swordWoosh")
                     this.canAttack = false;
                     this.attackCooldwon = 0.5
                     if (Keyboard.state.get("ArrowUp"))
@@ -145,6 +149,7 @@ export class Player extends StateAnimation implements IHitbox
             {
                 if (Keyboard.state.get("KeyZ") && this.canAttack)
                 {
+                    sound.play("swordWoosh")
                     this.canAttack = false;
                     this.attackCooldwon = 0.5
                     if (Keyboard.state.get("ArrowUp"))
@@ -165,10 +170,18 @@ export class Player extends StateAnimation implements IHitbox
                     
                     if (Keyboard.state.get("ArrowRight"))
                     {
+                        if (this.canPlaySound) {
+                            this.canPlaySound = false
+                            sound.play("step",{end: 0.34 ,complete: ()=> {this.canPlaySound = true}})
+                        }
                         this.playState("run", false)
                         
                     }else if (Keyboard.state.get("ArrowLeft") )
                     {
+                        if (this.canPlaySound) {
+                            this.canPlaySound = false
+                            sound.play("step",{end: 0.34 ,complete: ()=> {this.canPlaySound = true}})
+                        }
                         this.playState("run", false)
                     }else
                     {
@@ -191,18 +204,15 @@ export class Player extends StateAnimation implements IHitbox
             else
             {
                 this.speed.x = 0
-    
             }
         
             if (Keyboard.state.get("KeyX") && !this.inAir && !this.isSitting)
             {
-                this.speed.y = Player.JUMP;
+                this.speed.y = Player.JUMP; 
+                sound.play("jump", {singleInstance: true})                
+
             }
     
-            if (Keyboard.state.get("ArrowDown") && this.canSit && !this.isSitting)
-            {
-    
-            }
         }else {
             this.speed.x = 0
         }

@@ -11,7 +11,7 @@ export class Start extends TickerScene {
     constructor(position: string)
     {
         super()
-
+        
         //Add background
         const background1 = new TilingSprite(Texture.from("forestBackground1"), SceneManager.WIDTH, SceneManager.HEIGHT)
         const background2 = new TilingSprite(Texture.from("forestBackground2"), SceneManager.WIDTH, SceneManager.HEIGHT)

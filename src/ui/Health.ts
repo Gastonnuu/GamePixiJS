@@ -43,12 +43,14 @@ export class Health extends Container {
     }
 
     private updateHealth(health: number) {
-        for (let i = 0; i < 5; i++) {
-            this.hearts[i].alpha = 1
-        }
-
-        for (let i = health; i < 5; i++) {
-            this.hearts[i].alpha = 0
+        if (health > -1) {
+            for (let i = 0; i < 5; i++) {
+                this.hearts[i].alpha = 1
+            }
+    
+            for (let i = health; i < 5; i++) {
+                this.hearts[i].alpha = 0
+            }
         }
     }
 }

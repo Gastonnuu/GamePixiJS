@@ -1,7 +1,7 @@
-import { Application, Text, TextStyle, Ticker } from "pixi.js";
+import { Application, Container, Graphics, Sprite, Text, TextStyle, Ticker } from "pixi.js";
 import { Keyboard } from "./Keyboard";
 import { SceneAbstract } from "./SceneAbstract";
-import { Group } from "tweedle.js";
+import { Group, Tween } from "tweedle.js";
 import { Start } from "../scenes/Start";
 import { Forest10 } from "../scenes/Forest(1,0)";
 import { MainMenu } from "../scenes/MainMenu";
@@ -28,6 +28,10 @@ export namespace SceneManager
     let health: Health;
     let playerHealth: number
 
+    let deathMessage = new Container();
+
+    let blackScreen: Graphics;
+
     let style = new TextStyle({
         fontFamily: "upheavtt",
         fontSize: 50,
@@ -35,6 +39,15 @@ export namespace SceneManager
         lineJoin: "bevel",
         stroke: "#ffffff",
         strokeThickness: 3
+    });
+
+    let styleDeath = new TextStyle({
+        fontFamily: "upheavtt",
+        fontSize: 105,
+        fontVariant: "small-caps",
+        lineJoin: "bevel",
+        stroke: "#ffffff",
+        strokeThickness: 5
     });
     
     export function initialize()
@@ -59,6 +72,12 @@ export namespace SceneManager
         app.stage.addChild(menu);
         app.stage.addChild(health);
 
+        blackScreen = new Graphics();
+        blackScreen.beginFill(0x000000);
+        blackScreen.drawRect(0,0,1920,1080);
+        app.stage.addChild(blackScreen)
+        new Tween(blackScreen).to({alpha: 0}, 2000).start()
+
         const instruction = new Text("Use Arrows keys to move", style);
         instruction.anchor.set(0, 0.5);
         instruction.position.set(50, 950);
@@ -68,6 +87,17 @@ export namespace SceneManager
         instructio2.anchor.set(0, 0.5);
         instructio2.position.set(50, 1000);
         app.stage.addChild(instructio2)
+
+        const deathScene = Sprite.from("deathSprite")
+        deathScene.anchor.set(0.5)
+        deathScene.position.set(960, 540)
+        const deathText = new Text("GAME OVER", styleDeath)
+        deathText.anchor.set(0.5)
+        deathText.position.set(960, 540)
+        deathMessage.addChild(deathScene)
+        deathMessage.addChild(deathText)
+        deathMessage.alpha = 0
+        app.stage.addChild(deathMessage)
         
 
         Keyboard.initialize();
@@ -107,7 +137,11 @@ export namespace SceneManager
             currentScene.destroy();
         }
         currentScene = newScene;
-        app.stage.addChildAt(currentScene, 0)  
+        app.stage.addChildAt(currentScene, 0)
+        if (blackScreen.alpha == 0) {
+            setTimeout(()=> {new Tween(blackScreen).to({alpha: 0}, 500).start(), 1500}) 
+            blackScreen.alpha = 1 
+        }
     }
 
     function update(framePassed:number)
@@ -153,5 +187,14 @@ export namespace SceneManager
 
     export function updatePlayerHealth(health: number): void {
         playerHealth = health;
+    }
+
+    export function playerDied(): void {
+        new Tween(deathMessage).to({alpha: 0.8}, 100).start()
+        const scene = createScene("Start", "spawn")
+        if (scene != null) {
+            setTimeout(()=> { deathMessage.alpha = 0; changeScene(scene)}, 5000)
+        }
+        
     }
 }
